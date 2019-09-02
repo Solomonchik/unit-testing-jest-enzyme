@@ -3,10 +3,10 @@ import XPlanet from "../../img/xplanet.png";
 
 const Header = props => {
   return (
-    <header>
+    <header data-test="headerComponent">
       <div className="wrap">
         <div className="logo">
-          <img src={XPlanet} alt="logo" />
+          <img data-test="logoImg" src={XPlanet} alt="logo" />
         </div>
       </div>
     </header>
