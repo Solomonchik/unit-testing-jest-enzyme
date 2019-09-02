@@ -1,0 +1,12 @@
+@import "theme/App";
+@import "theme/Header";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  color: #490f0f;
+  background: #707174;
+  text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
+}
