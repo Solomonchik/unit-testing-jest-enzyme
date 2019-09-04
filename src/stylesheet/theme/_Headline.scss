@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Prime", serif;
+  src: local("Prime-Regular"), local("Prime-Regular"),
+    url("../../fonts/Prime-Regular.woff2") format("woff2");
+}
+
+.main {
+  width: 100%;
+  max-width: 980px;
+  margin: 20px auto 80px;
+  padding: 0 10px;
+  h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-family: "Prime", serif;
+    margin-bottom: 20px;
+  }
+}
